@@ -5,6 +5,9 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  top: 64px;
+  left: 70px;
+  height: 41px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +38,111 @@
   to {
     transform: rotate(360deg);
   }
+}
+.search-box {
+  display: flex;
+}
+
+.search-mode{
+  box-sizing: border-box;
+}
+
+.radio-inline {
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: 400;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.card{
+  box-shadow: 0 0 10px #d4d1d1;
+  position:relative;
+  display:flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction:normal;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border:1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  
+}
+
+.card-body {
+  -webkit-box-flex: 1;
+  flex: 1 1 auto;
+  padding: 1.25rem
+}
+
+.card-title{
+  text-transform: capitalize;
+}
+
+.list-group {
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid rgb(116, 113, 113);
+}
+
+.navbar-inverse {
+  background-color: #678de4;
+  border-color:#678de4;
+}
+
+.navbar{
+  border-radius: 4px
+}
+
+.navbar{
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid #678de4;
+}
+.navbar-header{
+  margin-right: 0;
+  margin-left:0;
+}
+
+.navbar-header{
+  float: left;
+}
+
+.navbar-brand {
+  margin-left: -15px;
+}
+/*
+.App-logo{
+  position:absolute;
+  top: 64px;
+  left:70px;
+  width: 40px;
+  height: 40px;
+  margin: -60px 0 0 -60px;
+  animation: spin 11s linear infinite
+}
+*/
+.page-header{
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eee
+}
+
+.small{
+  color: #777;
+  font-weight: 400;
+  line-height: 1;
 }
